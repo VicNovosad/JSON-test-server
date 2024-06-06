@@ -1,16 +1,292 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": 1,
+      "title": "Exploring the new city",
+      "body": "Just moved to a new city and everything is so exciting! Can't wait to explore all the local cafes and parks."
+    },
+    {
+      "id": 2,
+      "title": "Today's workout",
+      "body": "Had an amazing workout session today. Feeling pumped and ready to tackle the day!"
+    },
+    {
+      "id": 3,
+      "title": "Recipe for the best pancakes",
+      "body": "Just tried a new pancake recipe and they turned out to be the best ever. Fluffy and delicious!"
+    },
+    {
+      "id": 4,
+      "title": "Weekend getaway",
+      "body": "Spent the weekend in the mountains. The view was breathtaking and the air so fresh."
+    },
+    {
+      "id": 5,
+      "title": "New book recommendation",
+      "body": "Just finished reading 'The Silent Patient'. Highly recommend it to anyone who loves thrillers!"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "name": "Great article!",
+      "email": "jane.doe@example.com",
+      "body": "I really enjoyed reading this post. It was very informative and well-written."
+    },
+    {
+      "id": 2,
+      "name": "Thank you!",
+      "email": "john.smith@example.com",
+      "body": "This was exactly what I was looking for. Thanks for sharing!"
+    },
+    {
+      "id": 3,
+      "name": "Interesting perspective",
+      "email": "alice.johnson@example.com",
+      "body": "I never thought about it that way before. Very insightful."
+    },
+    {
+      "id": 4,
+      "name": "Well explained",
+      "email": "bob.brown@example.com",
+      "body": "The way you explained the topic was very clear and easy to understand."
+    },
+    {
+      "id": 5,
+      "name": "Love this!",
+      "email": "carol.green@example.com",
+      "body": "I love the points you made in this post. Great job!"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  },
+  "albums" : [
+    {
+      "id": 1,
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "releaseYear": 1969,
+      "genre": "Rock"
+    },
+    {
+      "id": 2,
+      "title": "The Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "releaseYear": 1973,
+      "genre": "Progressive Rock"
+    },
+    {
+      "id": 3,
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "releaseYear": 1982,
+      "genre": "Pop"
+    },
+    {
+      "id": 4,
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "releaseYear": 1980,
+      "genre": "Hard Rock"
+    },
+    {
+      "id": 5,
+      "title": "The Wall",
+      "artist": "Pink Floyd",
+      "releaseYear": 1979,
+      "genre": "Progressive Rock"
+    },
+    {
+      "id": 6,
+      "title": "Rumours",
+      "artist": "Fleetwood Mac",
+      "releaseYear": 1977,
+      "genre": "Rock"
+    },
+    {
+      "id": 7,
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "releaseYear": 1976,
+      "genre": "Rock"
+    },
+    {
+      "id": 8,
+      "title": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "releaseYear": 1971,
+      "genre": "Hard Rock"
+    },
+    {
+      "id": 9,
+      "title": "The Joshua Tree",
+      "artist": "U2",
+      "releaseYear": 1987,
+      "genre": "Rock"
+    },
+    {
+      "id": 10,
+      "title": "Born to Run",
+      "artist": "Bruce Springsteen",
+      "releaseYear": 1975,
+      "genre": "Rock"
+    },
+    {
+      "id": 11,
+      "title": "Nevermind",
+      "artist": "Nirvana",
+      "releaseYear": 1991,
+      "genre": "Grunge"
+    },
+    {
+      "id": 12,
+      "title": "Sgt. Pepper's Lonely Hearts Club Band",
+      "artist": "The Beatles",
+      "releaseYear": 1967,
+      "genre": "Rock"
+    },
+    {
+      "id": 13,
+      "title": "Purple Rain",
+      "artist": "Prince and The Revolution",
+      "releaseYear": 1984,
+      "genre": "Pop"
+    },
+    {
+      "id": 14,
+      "title": "London Calling",
+      "artist": "The Clash",
+      "releaseYear": 1979,
+      "genre": "Punk Rock"
+    },
+    {
+      "id": 15,
+      "title": "What's Going On",
+      "artist": "Marvin Gaye",
+      "releaseYear": 1971,
+      "genre": "Soul"
+    },
+    {
+      "id": 16,
+      "title": "The Beatles (White Album)",
+      "artist": "The Beatles",
+      "releaseYear": 1968,
+      "genre": "Rock"
+    },
+    {
+      "id": 17,
+      "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      "artist": "David Bowie",
+      "releaseYear": 1972,
+      "genre": "Glam Rock"
+    },
+    {
+      "id": 18,
+      "title": "A Night at the Opera",
+      "artist": "Queen",
+      "releaseYear": 1975,
+      "genre": "Rock"
+    },
+    {
+      "id": 19,
+      "title": "Appetite for Destruction",
+      "artist": "Guns N' Roses",
+      "releaseYear": 1987,
+      "genre": "Hard Rock"
+    },
+    {
+      "id": 20,
+      "title": "Exile on Main St.",
+      "artist": "The Rolling Stones",
+      "releaseYear": 1972,
+      "genre": "Rock"
+    },
+    {
+      "id": 21,
+      "title": "Graceland",
+      "artist": "Paul Simon",
+      "releaseYear": 1986,
+      "genre": "Worldbeat"
+    },
+    {
+      "id": 22,
+      "title": "Achtung Baby",
+      "artist": "U2",
+      "releaseYear": 1991,
+      "genre": "Rock"
+    },
+    {
+      "id": 23,
+      "title": "Goodbye Yellow Brick Road",
+      "artist": "Elton John",
+      "releaseYear": 1973,
+      "genre": "Pop"
+    },
+    {
+      "id": 24,
+      "title": "Pet Sounds",
+      "artist": "The Beach Boys",
+      "releaseYear": 1966,
+      "genre": "Rock"
+    },
+    {
+      "id": 25,
+      "title": "Blonde on Blonde",
+      "artist": "Bob Dylan",
+      "releaseYear": 1966,
+      "genre": "Folk Rock"
+    }
+  ],
+  "todos":[
+    {
+      "id": 1,
+      "title": "wash the dishes",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "do the laundry",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "buy groceries",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "clean the house",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "prepare dinner",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "take out the trash",
+      "completed": true
+    },
+    {
+      "id": 7,
+      "title": "pay bills",
+      "completed": false
+    },
+    {
+      "id": 8,
+      "title": "schedule doctor's appointment",
+      "completed": true
+    },
+    {
+      "id": 9,
+      "title": "finish work project",
+      "completed": true
+    },
+    {
+      "id": 10,
+      "title": "call mom",
+      "completed": false
+    }
+  ],  
   "users": [
     {
       "id": 1,
@@ -125,98 +401,6 @@
         "name": "Davis Inc",
         "catchPhrase": "Empower your business",
         "bs": "streamline operations"
-      }
-    },
-    {
-      "id": 6,
-      "name": "Diana Evans",
-      "username": "devans",
-      "email": "devans@example.com",
-      "address": {
-        "street": "303 Cedar St",
-        "suite": "Suite 6F",
-        "city": "Oldtown",
-        "zipcode": "65748",
-        "geo": {
-          "lat": "35.6895",
-          "lng": "139.6917"
-        }
-      },
-      "phone": "555-789-0123",
-      "website": "devans.com",
-      "company": {
-        "name": "Evans LLC",
-        "catchPhrase": "Innovative strategies",
-        "bs": "optimize processes"
-      }
-    },
-    {
-      "id": 7,
-      "name": "Edward Foster",
-      "username": "efoster",
-      "email": "efoster@example.com",
-      "address": {
-        "street": "404 Birch St",
-        "suite": "Apt. 7G",
-        "city": "Bigcity",
-        "zipcode": "84956",
-        "geo": {
-          "lat": "40.7306",
-          "lng": "-73.9352"
-        }
-      },
-      "phone": "555-012-3456",
-      "website": "efoster.com",
-      "company": {
-        "name": "Foster Solutions",
-        "catchPhrase": "Achieve more",
-        "bs": "empower innovation"
-      }
-    },
-    {
-      "id": 8,
-      "name": "Fiona Green",
-      "username": "fgreen",
-      "email": "fgreen@example.com",
-      "address": {
-        "street": "505 Ash St",
-        "suite": "Suite 8H",
-        "city": "Smalltown",
-        "zipcode": "23857",
-        "geo": {
-          "lat": "34.0522",
-          "lng": "-118.2437"
-        }
-      },
-      "phone": "555-345-6789",
-      "website": "fgreen.com",
-      "company": {
-        "name": "Green Inc",
-        "catchPhrase": "Leading innovation",
-        "bs": "integrate solutions"
-      }
-    },
-    {
-      "id": 9,
-      "name": "George Harris",
-      "username": "gharris",
-      "email": "gharris@example.com",
-      "address": {
-        "street": "606 Spruce St",
-        "suite": "Apt. 9I",
-        "city": "Largetown",
-        "zipcode": "47586",
-        "geo": {
-          "lat": "41.8781",
-          "lng": "-87.6298"
-        }
-      },
-      "phone": "555-678-9012",
-      "website": "gharris.com",
-      "company": {
-        "name": "Harris Enterprises",
-        "catchPhrase": "Innovate together",
-        "bs": "maximize potential"
       }
     }
   ]
